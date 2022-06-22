@@ -1,0 +1,8 @@
+github.com/OhYee/goutils v1.1.0 h1:E9BMk4oowjbgrYq+30Xq0MwzT2bJ8WC11NVEUom+YFc=
+github.com/OhYee/goutils v1.1.0/go.mod h1:RqaQ1bD+sQAq7zQ/1vAtaojWoFznhAFdWDsMZr7SgkA=
+github.com/OhYee/goutils v1.1.5 h1:53RGxlfc8pgDP+ipBjh+Vb7TCpdaE9mooyNviOGG9SA=
+github.com/OhYee/goutils v1.1.5/go.mod h1:a0LN8uy8eh26x+65ArEr6MKYCPl5ndy+yrEecBH3Pz8=
+github.com/OhYee/rainbow v1.0.9 h1:UVaax0SR6n0uKws7kd0aRVodNHm3IlIiAiD99HuZuU4=
+github.com/OhYee/rainbow v1.0.9/go.mod h1:9If6oueKS6Tz2i7iBeCBgXJbNOvYIkMMlmxxcmobaPE=
+github.com/fsnotify/fsnotify v1.4.9/go.mod h1:znqG4EE+3YCdAaPaxE2ZRY/06pZUdp0tY4IgpuI1SZQ=
+golang.org/x/sys v0.0.0-20191005200804-aed5e4c7ecf9/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
