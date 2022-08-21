@@ -2,7 +2,6 @@ package proxy
 
 import (
 	"context"
-	"fmt"
 	"io"
 )
 
@@ -26,7 +25,6 @@ func redirectIO(ctx context.Context, src io.Reader, dst io.Writer) (int, error) 
 			if err != nil {
 				return total, err
 			}
-			fmt.Println("rn:", rn)
 			written := 0
 			for written < rn {
 				select {
@@ -37,7 +35,6 @@ func redirectIO(ctx context.Context, src io.Reader, dst io.Writer) (int, error) 
 					if err != nil {
 						return total, err
 					}
-					fmt.Println("wn:", wn)
 
 					written += wn
 					total += wn

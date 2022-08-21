@@ -2,6 +2,7 @@ FROM golang:1.18 AS builder
 
 COPY . /data
 WORKDIR /data
+ENV GOPROXY=https://goproxy.cn
 RUN go mod download
 RUN CGO_ENABLED=0 go build -a -ldflags '-extldflags "-static"' .
 
